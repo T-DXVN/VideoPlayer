@@ -223,6 +223,7 @@ Makefile: ../VideoPlayer/VideoPlayer.pro ../../../../QT/Qt5.12.6/5.12.6/mingw73_
 		../../../../QT/Qt5.12.6/5.12.6/mingw73_32/mkspecs/features/qt_config.prf \
 		../../../../QT/Qt5.12.6/5.12.6/mingw73_32/mkspecs/win32-g++/qmake.conf \
 		../../../../QT/Qt5.12.6/5.12.6/mingw73_32/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		../../../../QT/Qt5.12.6/5.12.6/mingw73_32/mkspecs/features/exclusive_builds.prf \
 		../../../../QT/Qt5.12.6/5.12.6/mingw73_32/mkspecs/features/toolchain.prf \
 		../../../../QT/Qt5.12.6/5.12.6/mingw73_32/mkspecs/features/default_pre.prf \
@@ -246,8 +247,11 @@ Makefile: ../VideoPlayer/VideoPlayer.pro ../../../../QT/Qt5.12.6/5.12.6/mingw73_
 		../../../../QT/Qt5.12.6/5.12.6/mingw73_32/mkspecs/features/yacc.prf \
 		../../../../QT/Qt5.12.6/5.12.6/mingw73_32/mkspecs/features/lex.prf \
 		../VideoPlayer/VideoPlayer.pro \
+		../../../../QT/Qt5.12.6/5.12.6/mingw73_32/lib/Qt5MultimediaWidgets.prl \
+		../../../../QT/Qt5.12.6/5.12.6/mingw73_32/lib/Qt5Multimedia.prl \
 		../../../../QT/Qt5.12.6/5.12.6/mingw73_32/lib/Qt5Widgets.prl \
 		../../../../QT/Qt5.12.6/5.12.6/mingw73_32/lib/Qt5Gui.prl \
+		../../../../QT/Qt5.12.6/5.12.6/mingw73_32/lib/Qt5Network.prl \
 		../../../../QT/Qt5.12.6/5.12.6/mingw73_32/lib/Qt5Core.prl \
 		../../../../QT/Qt5.12.6/5.12.6/mingw73_32/lib/qtmain.prl
 	$(QMAKE) -o Makefile ..\VideoPlayer\VideoPlayer.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
@@ -411,6 +415,7 @@ Makefile: ../VideoPlayer/VideoPlayer.pro ../../../../QT/Qt5.12.6/5.12.6/mingw73_
 ../../../../QT/Qt5.12.6/5.12.6/mingw73_32/mkspecs/features/qt_config.prf:
 ../../../../QT/Qt5.12.6/5.12.6/mingw73_32/mkspecs/win32-g++/qmake.conf:
 ../../../../QT/Qt5.12.6/5.12.6/mingw73_32/mkspecs/features/spec_post.prf:
+.qmake.stash:
 ../../../../QT/Qt5.12.6/5.12.6/mingw73_32/mkspecs/features/exclusive_builds.prf:
 ../../../../QT/Qt5.12.6/5.12.6/mingw73_32/mkspecs/features/toolchain.prf:
 ../../../../QT/Qt5.12.6/5.12.6/mingw73_32/mkspecs/features/default_pre.prf:
@@ -434,8 +439,11 @@ Makefile: ../VideoPlayer/VideoPlayer.pro ../../../../QT/Qt5.12.6/5.12.6/mingw73_
 ../../../../QT/Qt5.12.6/5.12.6/mingw73_32/mkspecs/features/yacc.prf:
 ../../../../QT/Qt5.12.6/5.12.6/mingw73_32/mkspecs/features/lex.prf:
 ../VideoPlayer/VideoPlayer.pro:
+../../../../QT/Qt5.12.6/5.12.6/mingw73_32/lib/Qt5MultimediaWidgets.prl:
+../../../../QT/Qt5.12.6/5.12.6/mingw73_32/lib/Qt5Multimedia.prl:
 ../../../../QT/Qt5.12.6/5.12.6/mingw73_32/lib/Qt5Widgets.prl:
 ../../../../QT/Qt5.12.6/5.12.6/mingw73_32/lib/Qt5Gui.prl:
+../../../../QT/Qt5.12.6/5.12.6/mingw73_32/lib/Qt5Network.prl:
 ../../../../QT/Qt5.12.6/5.12.6/mingw73_32/lib/Qt5Core.prl:
 ../../../../QT/Qt5.12.6/5.12.6/mingw73_32/lib/qtmain.prl:
 qmake: FORCE
